@@ -1,0 +1,64 @@
+@media  screen and (max-width:1200px)  {
+  header{
+    background-color: black;
+  }
+    main{
+    background-color: black;
+    height: 100vh;
+  }
+    #loop-vid{
+        display: none;
+    }
+}
+@media  screen and (max-width:800px){
+    a{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+    header, .navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+#title-img{
+    padding-top: 80px;
+    width: 400px;
+}
+#boss{
+height: 300px;
+}
+#info p{
+    width: 340px;
+    font-size: 18px;
+    margin: 20px;
+    text-align: justify;
+}
+
+}
+@media screen and (max-width:600px) {
+    body{
+        margin: auto;
+    }
+    main{
+        margin: auto;
+        text-align: center;
+        display: block;
+        height: 100vh;
+        background-color: black;
+    }
+    #info p{
+        margin: auto;
+        width: 340px;
+        font-size: 18px;
+        margin: 20px;
+        text-align: center;
+    }
+    .btn{
+        margin: auto;
+    }
+    #yt{
+width: 360px;
+    }
+}

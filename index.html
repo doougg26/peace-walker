@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/screen.css">
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+    <title>MGS PeaceWalker</title>
+</head>
+
+<body>
+    <div id="loop-vid">
+        <video id="vid" autoplay loop muted>
+            <source src="./video/video.mp4" type="video/mp4">
+        </video>
+    </div>
+    <header>
+        <nav>
+            <a href="#"><img id="logo" src="./assets/img/logo-symbol.png" alt="Logo"></a>
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">História</a></li>
+                <li><a href="#">Personagens</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="info">
+            <img id="title-img" src="./assets/img/logo-text.png" alt="text logo">
+            <p>O ano é 1974. Na Costa Rica, um exército desconhecido de soldados bem equipados tomou conta do país
+                indefeso. Os soldados trouxeram também uma grande ogiva nuclear chamada "Peace Walker", a última ogiva
+                nuclear criada com o intuito de demosntrar seu perfeito poder de dissuasão. <button class="btn" onclick="OpenModal()">Veja o
+                    trailer</button> </p>
+        </section>
+        <img id="boss" src="./assets/img/boss.png" alt="solid snake">
+        <div class="modal">
+            <div id="modalContent">
+                <span class="closeModal" onclick="CloseModal()">X</span>
+                <iframe id="yt" width="560" height="315" src="https://www.youtube-nocookie.com/embed/Ik_cVuzNyI4?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+    <script src="./js/script.js">
+        
+    </script>
+</body>
+
+</html>
