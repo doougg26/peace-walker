@@ -22,7 +22,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Essa é uma landing page baseada sobre o jogo Metal Gear Solid: Peace Walker baseada em um projeto do <a href="https://devemdobro.com/" target="_blank">Dev em dobro<a>. Nele trabalhamos conceitos como construção de layouts, design responsivo e CSS Flexbox.
+Essa é uma landing page sobre o jogo Metal Gear Solid: Peace Walker baseada em um projeto do <a href="https://devemdobro.com/" target="_blank">Dev em dobro<a>. Nele trabalhamos conceitos como construção de layouts, design responsivo e CSS Flexbox.
 
 - [Visite o projeto online](https://doougg26.github.io/peace-walker/#)
 
