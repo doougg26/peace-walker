@@ -1,68 +1,77 @@
-@media  screen and (max-width:1200px)  {
-    header{
+@media screen and (max-width:1200px) {
+    header {
         background-color: black;
     }
-    body{
+
+    body {
         background-image: url(../assets/img/peace.jpg);
         background-size: cover;
         background-repeat: no-repeat;
     }
-    main{
-        background-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.212)
-        );
+
+    main {
+        background-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.212));
     }
 
-    #boss{
+    #boss {
         height: 400px;
     }
 
-    #loop-vid{
+    #loop-vid {
         display: none;
     }
 }
-@media  screen and (max-width:800px){
-    a{
+
+@media screen and (max-width:800px) {
+    a {
         display: flex;
         flex-direction: row;
         justify-content: center;
 
     }
-    header, .navbar{
+
+    header, .navbar {
         display: flex;
         flex-direction: column;
-        align-content: flex-start;
-        justify-content: space-evenly;
+        align-content: center;
+        justify-content: space-between;
     }
-    main{
+
+    main {
+        display: flex;
         background-color: black;
-        height: 150vh;
         align-content: flex-end;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         text-align: center;
     }
-#title-img{
-    padding-top: 80px;
-    width: 80vw;
-}
-#boss{
-height: 300px;
-}
-#info p{
-    width: 70vw;
-    font-size: 18px;
-    margin: 20px;
-    text-align: justify;
+
+    #title-img {
+        padding-top: 80px;
+        width: 80vw;
+    }
+
+    #boss {
+        height: 300px;
+    }
+
+    #info p {
+        width: 70vw;
+        font-size: 18px;
+        margin: 20px;
+        text-align: justify;
+    }
+
+    #yt {
+        width: 360px;
+    }
+
+    #boss {
+        margin-top: 30px;
+    }
 }
 
-#yt{
-width: 360px;
-}
-#boss{
-    margin-top: 30px;
-}
-}
 /*@media screen and (max-width:600px) {
     body{
         margin: auto;
